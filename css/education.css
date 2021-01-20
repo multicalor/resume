@@ -9,7 +9,7 @@ h2 {
 label {
     font-size: 0.6rem;
     font-weight: 400;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, 0.712);
 }
 span {
     font-size: 0.5em;
@@ -19,6 +19,8 @@ p {
     margin-block-end: 0;
     margin-block-start: 0 ;
 }
+
+
 .education-container{
     display: flex;
     justify-content: space-between;
@@ -44,7 +46,7 @@ p {
 
     background-color:rgb(118, 151, 42);
     list-style-type: none;
-    color: rgb(40, 73, 182);
+    color: rgba(40, 73, 182, 0.801);
     border-radius: 14px;
     text-align: center;
 
@@ -54,10 +56,10 @@ p {
     font-family: 'Cabin', sans-serif;
     font-size: 1rem;
     font-weight: 700;
-    color:rgb(40, 73, 182);
+    color:rgba(40, 73, 182, 0.959);
 }
 
 .course-name {
-    color:rgb(40, 73, 182);
+    color:rgba(40, 73, 182, 0.959);
     margin: 0;
 }

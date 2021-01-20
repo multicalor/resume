@@ -3,10 +3,17 @@ body {
     background-color:rgb(96, 166, 212)
 
 }
-a {
-    color: rgb(27, 235, 131);
+a{
+    color:rgb(255, 255, 255)
 }
 
+h1 {
+    color: white;
+}
+
+.name {
+    color:white
+}
 .header-continer {
     display: flex;
     background-color: rgb(42, 80, 102);
@@ -42,6 +49,7 @@ a {
     margin: 8% 0% 0% 0%;
     max-width: 300px;
     padding-inline-start: 0;
+    color: rgb(255, 255, 255);
 }
 
 .skill {
@@ -61,7 +69,7 @@ a {
 .contact {
     width: 200px;
     text-align: start;
-    /* background-color:forestgreen; */
+    color: rgba(166, 202, 45, 0.561);
     padding: 5px 0px 0px 0px; 
     margin: 0px 0px 0px 0px; 
 }
