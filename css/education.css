@@ -1,0 +1,44 @@
+ul {
+    padding-inline-start: 0%;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+.education-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.education {
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+    max-width: 30%;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.course {
+    display: block;
+
+    margin: 4% 0% 0% 0%;
+    padding: 10px 18px;
+
+
+    list-style-type: none;
+    background-color:rgb(64, 124, 45);
+    border-radius: 14px;
+    text-align: center;
+
+
+}
+.institution {
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color:rgb(40, 73, 182);
+}
