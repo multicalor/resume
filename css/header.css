@@ -13,7 +13,8 @@ a {
     font-family: 'Cabin', sans-serif;
     max-width: 1200px;
     margin: auto auto;
-    border-radius: 14px
+    border-radius: 14px;
+    flex-wrap: wrap;
 }
 
 .badge {
@@ -26,6 +27,8 @@ a {
 
 .header-info {
     margin: 6% 0 0 10%;
+    font-size:1rem;
+    flex-wrap: wrap;
     /* max-width: 30%; */
 }
 
@@ -33,6 +36,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    flex-wrap: wrap;
     align-items: center;
     list-style-type: none;
     margin: 8% 0% 0% 0%;
@@ -41,7 +45,7 @@ a {
 }
 
 .skill {
-    margin-right: 4%;
+    margin: 2%;
     padding: 6px 6px 6px 6px;
     background-color:forestgreen;
     border-radius: 35% 4% 35% 4%;

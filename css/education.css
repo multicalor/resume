@@ -2,8 +2,12 @@ ul {
     padding-inline-start: 0%;
 }
 
+h2 {
+    font-size: 1em;
+}
+
 label {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
     font-weight: 400;
     color: rgb(255, 255, 255);
 }
@@ -11,6 +15,7 @@ label {
 .education-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .education {
@@ -38,7 +43,7 @@ label {
 }
 .institution {
     font-family: 'Cabin', sans-serif;
-    font-size: 1.3rem;
+    font-size: 1rem;
     font-weight: 700;
     color:rgb(40, 73, 182);
 }
