@@ -56,3 +56,8 @@ p {
     font-weight: 700;
     color:rgb(40, 73, 182);
 }
+
+.course-name {
+    color:rgb(40, 73, 182);
+    margin: 0;
+}
