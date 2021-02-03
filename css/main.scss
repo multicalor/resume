@@ -1,13 +1,18 @@
 $font-stack: "Cabin", sans-serif;
-$primary-color: #333;
+$bg-color: rgb(96, 166, 212);
+$header-bg-color: rgb(42, 80, 102);
+$header-font-color: white;
 
 body {
-  font: 100% $font-stack;
-  color: $primary-color;
+  background-color: $bg-color;
+  color: $header-font-color;
 }
 
 .header-continer {
-    .badje {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $header-bg-color;
+    .badge {
         
     }
 }
