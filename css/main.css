@@ -1,6 +1,23 @@
+@charset "UTF-8";
 body {
   background-color: #60a6d4;
   color: white;
+  font-family: "Cabin", sans-serif;
+}
+
+A {
+  color: white;
+  /* Цвет ссылок */
+}
+
+A:visited {
+  color: #cecece;
+  /* Цвет посещенных ссылок */
+}
+
+A:active {
+  color: #ffff00;
+  /* Цвет активных ссылок */
 }
 
 .header-continer {
@@ -10,5 +27,53 @@ body {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   background-color: #2a5066;
+}
+
+.header-continer .avatar {
+  margin: 1%;
+  border-radius: 0.5rem;
+}
+
+.header-continer .contacts .name {
+  font-size: 2rem;
+  margin: 11% 2%;
+}
+
+.header-continer .contacts .contact {
+  font-size: 1rem;
+  margin: 2%;
+  color: white;
+}
+
+.header-continer .header-info .specialization {
+  font-size: 3rem;
+  margin: 2% 0% 2% 0%;
+}
+
+.header-continer .header-info .skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style-type: none;
+  max-width: 300px;
+}
+
+.header-continer .header-info .skills .skill {
+  margin: 2%;
+  padding: 6px 6px 6px 6px;
+  background-color: forestgreen;
+  border-radius: 35% 4% 35% 4%;
 }
 /*# sourceMappingURL=main.css.map */

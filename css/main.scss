@@ -2,17 +2,65 @@ $font-stack: "Cabin", sans-serif;
 $bg-color: rgb(96, 166, 212);
 $header-bg-color: rgb(42, 80, 102);
 $header-font-color: white;
+$radius: .5rem;
+
+
 
 body {
   background-color: $bg-color;
   color: $header-font-color;
+  font-family: $font-stack;
 }
+
+A {
+    color: $header-font-color; /* Цвет ссылок */
+   }
+   A:visited {
+    color: #cecece; /* Цвет посещенных ссылок */
+   }
+   A:active {
+    color: #ffff00; /* Цвет активных ссылок */
+   }
 
 .header-continer {
     display: flex;
     flex-wrap: wrap;
     background-color: $header-bg-color;
-    .badge {
-        
+    .avatar {
+        margin: 1%;
+        border-radius: $radius;
+    }
+    .contacts {
+        .name {
+            font-size: 2rem;
+            margin: 11% 2%;
+        }
+        .contact {
+            font-size: 1rem;
+            margin: 2%;
+            color: $header-font-color;
+        }
+    }
+    .header-info {
+        .specialization{
+            font-size: 3rem;
+            margin: 2% 0% 2% 0%;
+        }
+        .skills {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            align-items: center;
+            list-style-type: none;
+            // margin: 8% 0% 0% 0%;
+            max-width: 300px;
+            .skill {
+                margin: 2%;
+                padding: 6px 6px 6px 6px;
+                background-color:forestgreen;
+                border-radius: 35% 4% 35% 4%;
+            }
+        }
     }
 }

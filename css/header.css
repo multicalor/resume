@@ -1,7 +1,7 @@
 body {
     padding: 0;
-    background-color:rgb(96, 166, 212)
-
+    background-color:rgb(96, 166, 212);
+    font-family: 'Cabin', sans-serif;
 }
 a{
     color:rgb(255, 255, 255)
@@ -17,7 +17,7 @@ h1 {
 .header-continer {
     display: flex;
     background-color: rgb(42, 80, 102);
-    font-family: 'Cabin', sans-serif;
+
     max-width: 1200px;
     margin: auto auto;
     border-radius: 14px;
